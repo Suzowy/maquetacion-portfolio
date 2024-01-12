@@ -763,7 +763,7 @@ body {
 .timeline__header {
   flex-basis: 30%;
   text-align: right;
-  padding-right: 2.5rem;
+  padding-right: 1.5rem;
 }
 
 .timeline__year {

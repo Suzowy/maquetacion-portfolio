@@ -1,7 +1,7 @@
 /* DEFINICION VARIABLES*/
 :root {
   --color-principal: #ffffff;
-  --color-secondary: #8a88eb;
+  --color-secondary: #915aea ;
 
   --color-background: #f2f7f9;
   --color-transparent: transparent;
@@ -18,8 +18,8 @@
 
 /* ESTILOS GENERALES */
 html {
-  font-size: 10px;
-  overflow: hidden;
+  font-size: 62.5%; /*equivale a 10 px */
+
 }
 
 body {
@@ -46,7 +46,7 @@ body {
   background-image: url("../img/fondo.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: -58px -58px;
+  background-position: -20px -120px;
 }
 
 /* ESTRUCTURA PRINCIPAL */
@@ -73,6 +73,7 @@ body {
   overflow: auto;
   overflow-x: hidden;
 }
+
 
 .aside__user-info {
   display: flex;
@@ -245,7 +246,7 @@ body {
   display: block;
   position: absolute;
   top: 0;
-  right: -105px;
+  right: -10.5rem;
   min-width: 11rem;
   background-color: var(--color-transparent);
 }
@@ -359,10 +360,10 @@ body {
 .contact__title::after {
   content: "";
   position: absolute;
-  top: 20px;
-  right: -25px;
-  width: 50px;
-  height: 30px;
+  top: 2rem;
+  right: -2.5rem;
+  width: 5rem;
+  height: 3rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secondary),
@@ -454,10 +455,10 @@ body {
 .form-header__title::after {
   content: "";
   position: absolute;
-  top: 15px;
+  top: 1.5rem;
   right: 0;
-  width: 30px;
-  height: 20px;
+  width: 3rem;
+  height: 2rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secondary),
@@ -597,7 +598,7 @@ body {
 }
 
 .clients__image {
-  width: 145px;
+  width: 14.5rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -642,12 +643,12 @@ body {
 
 .prices__box:hover .prices__text::after {
   content: "";
-  height: 2px;
+  height: 0.2rem;
   background-color: var(--color-secondary);
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -3px;
+  bottom: -0.3rem;
 }
 
 .prices__price {
@@ -799,8 +800,8 @@ body {
   position: absolute;
   top: 0;
   left: 30%;
-  bottom: -18%;
-  width: 1.5px;
+  bottom: -1.8rem;
+  width: 1px;
   height: auto;
   background-color: var(--color-background-scrollbar);
 }
